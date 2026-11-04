@@ -1,0 +1,12 @@
+﻿.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+test_child_normal.txt
+.env
+.env.*
+.streamlit/secrets.toml
+
+models_smoke/
+results/automl_smoke/
