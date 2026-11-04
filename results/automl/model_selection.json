@@ -1,0 +1,80 @@
+{
+  "best_model_name": "hist_gradient_boosting",
+  "best_display": "HistGradientBoosting",
+  "criteria": [
+    "1차: 검증(Validation) Macro F1-score 최대",
+    "동점(±tolerance): 최저 클래스 Recall 상위",
+    "동점: 모델 복잡도 하위",
+    "동점: 추론 시간 하위"
+  ],
+  "scores": {
+    "val_macro_f1": 0.37402673560722066,
+    "val_accuracy": 0.547,
+    "worst_class_recall": 0.031914893617021274,
+    "complexity": 108,
+    "inference_ms_per_100": 25.176099999953294
+  },
+  "tie_break_applied": false,
+  "tie_break_reason": "",
+  "note": "선정은 학습·검증 데이터 내부에서만 수행했으며, 최종 테스트셋은 모델 선택에 사용하지 않았습니다.",
+  "selection_table": [
+    {
+      "model": "hist_gradient_boosting",
+      "display": "HistGradientBoosting",
+      "val_macro_f1": 0.374027,
+      "val_accuracy": 0.547,
+      "val_weighted_f1": 0.515217,
+      "worst_class_recall": 0.031915,
+      "mean_class_recall": 0.385589,
+      "complexity": 108,
+      "inference_ms_per_100": 25.1761,
+      "fit_time_sec": 27.347969,
+      "opt_time_sec": 120.740349,
+      "cv_macro_f1": 0.362405
+    },
+    {
+      "model": "xgboost",
+      "display": "XGBoost",
+      "val_macro_f1": 0.358098,
+      "val_accuracy": 0.549,
+      "val_weighted_f1": 0.511168,
+      "worst_class_recall": 0.0,
+      "mean_class_recall": 0.376952,
+      "complexity": 486,
+      "inference_ms_per_100": 5.761,
+      "fit_time_sec": 25.809838,
+      "opt_time_sec": 285.528735,
+      "cv_macro_f1": 0.352873
+    },
+    {
+      "model": "random_forest",
+      "display": "Random Forest",
+      "val_macro_f1": 0.356019,
+      "val_accuracy": 0.544,
+      "val_weighted_f1": 0.508571,
+      "worst_class_recall": 0.0,
+      "mean_class_recall": 0.375052,
+      "complexity": 6300,
+      "inference_ms_per_100": 33.56736,
+      "fit_time_sec": 7.141737,
+      "opt_time_sec": 79.953395,
+      "cv_macro_f1": 0.359819
+    },
+    {
+      "model": "extra_trees",
+      "display": "Extra Trees",
+      "val_macro_f1": 0.351424,
+      "val_accuracy": 0.543,
+      "val_weighted_f1": 0.505276,
+      "worst_class_recall": 0.0,
+      "mean_class_recall": 0.372702,
+      "complexity": 6650,
+      "inference_ms_per_100": 55.74992,
+      "fit_time_sec": 4.127655,
+      "opt_time_sec": 48.418814,
+      "cv_macro_f1": 0.364664
+    }
+  ],
+  "saved_model_path": "C:\\Users\\Samsung\\OneDrive\\바탕 화면\\문서\\기본 프로젝트\\AI_Etching_Troubleshooting\\models\\best_model.pkl",
+  "timestamp": "2026-10-31 18:00:20"
+}

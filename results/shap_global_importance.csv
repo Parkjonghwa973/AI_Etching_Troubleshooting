@@ -1,0 +1,7 @@
+﻿feature,mean_abs_shap
+bias_power_w,0.38776404
+gas_chemistry,0.30877063
+temperature_c,0.25019163
+source_power_w,0.19606487
+pressure_mtorr,0.19442055
+gas_flow_sccm,0.108733386

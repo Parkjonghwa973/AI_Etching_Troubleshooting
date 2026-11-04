@@ -1,0 +1,481 @@
+experiment,x,y,xlabel,ylabel
+bias_power_w,50.0,46.299,Bias power (W),Etch rate (nm/min)
+bias_power_w,53.164556962025316,47.716,Bias power (W),Etch rate (nm/min)
+bias_power_w,56.32911392405063,49.139,Bias power (W),Etch rate (nm/min)
+bias_power_w,59.49367088607595,50.571,Bias power (W),Etch rate (nm/min)
+bias_power_w,62.65822784810126,52.01,Bias power (W),Etch rate (nm/min)
+bias_power_w,65.82278481012658,53.456,Bias power (W),Etch rate (nm/min)
+bias_power_w,68.9873417721519,54.911,Bias power (W),Etch rate (nm/min)
+bias_power_w,72.15189873417722,56.373,Bias power (W),Etch rate (nm/min)
+bias_power_w,75.31645569620252,57.843,Bias power (W),Etch rate (nm/min)
+bias_power_w,78.48101265822785,59.321,Bias power (W),Etch rate (nm/min)
+bias_power_w,81.64556962025316,60.807,Bias power (W),Etch rate (nm/min)
+bias_power_w,84.81012658227849,62.302,Bias power (W),Etch rate (nm/min)
+bias_power_w,87.9746835443038,63.805,Bias power (W),Etch rate (nm/min)
+bias_power_w,91.13924050632912,65.316,Bias power (W),Etch rate (nm/min)
+bias_power_w,94.30379746835443,66.835,Bias power (W),Etch rate (nm/min)
+bias_power_w,97.46835443037975,68.363,Bias power (W),Etch rate (nm/min)
+bias_power_w,100.63291139240506,69.899,Bias power (W),Etch rate (nm/min)
+bias_power_w,103.79746835443038,71.443,Bias power (W),Etch rate (nm/min)
+bias_power_w,106.9620253164557,72.996,Bias power (W),Etch rate (nm/min)
+bias_power_w,110.12658227848101,74.557,Bias power (W),Etch rate (nm/min)
+bias_power_w,113.29113924050633,76.127,Bias power (W),Etch rate (nm/min)
+bias_power_w,116.45569620253164,77.705,Bias power (W),Etch rate (nm/min)
+bias_power_w,119.62025316455696,79.292,Bias power (W),Etch rate (nm/min)
+bias_power_w,122.78481012658227,80.887,Bias power (W),Etch rate (nm/min)
+bias_power_w,125.9493670886076,82.49,Bias power (W),Etch rate (nm/min)
+bias_power_w,129.11392405063293,84.102,Bias power (W),Etch rate (nm/min)
+bias_power_w,132.27848101265823,85.722,Bias power (W),Etch rate (nm/min)
+bias_power_w,135.44303797468353,87.351,Bias power (W),Etch rate (nm/min)
+bias_power_w,138.60759493670886,88.987,Bias power (W),Etch rate (nm/min)
+bias_power_w,141.7721518987342,90.632,Bias power (W),Etch rate (nm/min)
+bias_power_w,144.9367088607595,92.285,Bias power (W),Etch rate (nm/min)
+bias_power_w,148.1012658227848,93.947,Bias power (W),Etch rate (nm/min)
+bias_power_w,151.26582278481013,95.616,Bias power (W),Etch rate (nm/min)
+bias_power_w,154.43037974683546,97.294,Bias power (W),Etch rate (nm/min)
+bias_power_w,157.59493670886076,98.979,Bias power (W),Etch rate (nm/min)
+bias_power_w,160.75949367088606,100.672,Bias power (W),Etch rate (nm/min)
+bias_power_w,163.9240506329114,102.373,Bias power (W),Etch rate (nm/min)
+bias_power_w,167.08860759493672,104.082,Bias power (W),Etch rate (nm/min)
+bias_power_w,170.25316455696202,105.798,Bias power (W),Etch rate (nm/min)
+bias_power_w,173.41772151898732,107.522,Bias power (W),Etch rate (nm/min)
+bias_power_w,176.58227848101265,109.253,Bias power (W),Etch rate (nm/min)
+bias_power_w,179.74683544303798,110.992,Bias power (W),Etch rate (nm/min)
+bias_power_w,182.91139240506328,112.738,Bias power (W),Etch rate (nm/min)
+bias_power_w,186.0759493670886,114.491,Bias power (W),Etch rate (nm/min)
+bias_power_w,189.2405063291139,116.251,Bias power (W),Etch rate (nm/min)
+bias_power_w,192.40506329113924,118.018,Bias power (W),Etch rate (nm/min)
+bias_power_w,195.56962025316454,119.791,Bias power (W),Etch rate (nm/min)
+bias_power_w,198.73417721518987,121.572,Bias power (W),Etch rate (nm/min)
+bias_power_w,201.8987341772152,123.359,Bias power (W),Etch rate (nm/min)
+bias_power_w,205.0632911392405,125.152,Bias power (W),Etch rate (nm/min)
+bias_power_w,208.22784810126583,126.952,Bias power (W),Etch rate (nm/min)
+bias_power_w,211.39240506329114,128.758,Bias power (W),Etch rate (nm/min)
+bias_power_w,214.55696202531647,130.57,Bias power (W),Etch rate (nm/min)
+bias_power_w,217.72151898734177,132.388,Bias power (W),Etch rate (nm/min)
+bias_power_w,220.8860759493671,134.211,Bias power (W),Etch rate (nm/min)
+bias_power_w,224.0506329113924,136.041,Bias power (W),Etch rate (nm/min)
+bias_power_w,227.21518987341773,137.875,Bias power (W),Etch rate (nm/min)
+bias_power_w,230.37974683544303,139.716,Bias power (W),Etch rate (nm/min)
+bias_power_w,233.54430379746836,141.561,Bias power (W),Etch rate (nm/min)
+bias_power_w,236.70886075949366,143.412,Bias power (W),Etch rate (nm/min)
+bias_power_w,239.873417721519,145.267,Bias power (W),Etch rate (nm/min)
+bias_power_w,243.0379746835443,147.127,Bias power (W),Etch rate (nm/min)
+bias_power_w,246.20253164556962,148.992,Bias power (W),Etch rate (nm/min)
+bias_power_w,249.36708860759492,150.862,Bias power (W),Etch rate (nm/min)
+bias_power_w,252.53164556962025,152.735,Bias power (W),Etch rate (nm/min)
+bias_power_w,255.69620253164558,154.613,Bias power (W),Etch rate (nm/min)
+bias_power_w,258.8607594936709,156.495,Bias power (W),Etch rate (nm/min)
+bias_power_w,262.0253164556962,158.381,Bias power (W),Etch rate (nm/min)
+bias_power_w,265.1898734177215,160.271,Bias power (W),Etch rate (nm/min)
+bias_power_w,268.3544303797469,162.164,Bias power (W),Etch rate (nm/min)
+bias_power_w,271.5189873417721,164.061,Bias power (W),Etch rate (nm/min)
+bias_power_w,274.6835443037975,165.961,Bias power (W),Etch rate (nm/min)
+bias_power_w,277.8481012658228,167.864,Bias power (W),Etch rate (nm/min)
+bias_power_w,281.0126582278481,169.771,Bias power (W),Etch rate (nm/min)
+bias_power_w,284.17721518987344,171.68,Bias power (W),Etch rate (nm/min)
+bias_power_w,287.34177215189874,173.592,Bias power (W),Etch rate (nm/min)
+bias_power_w,290.50632911392404,175.506,Bias power (W),Etch rate (nm/min)
+bias_power_w,293.6708860759494,177.423,Bias power (W),Etch rate (nm/min)
+bias_power_w,296.83544303797464,179.342,Bias power (W),Etch rate (nm/min)
+bias_power_w,300.0,181.264,Bias power (W),Etch rate (nm/min)
+source_power_w,300.0,66.976,Source power (W),Etch rate (nm/min)
+source_power_w,315.1898734177215,68.16,Source power (W),Etch rate (nm/min)
+source_power_w,330.37974683544303,69.335,Source power (W),Etch rate (nm/min)
+source_power_w,345.56962025316454,70.502,Source power (W),Etch rate (nm/min)
+source_power_w,360.75949367088606,71.66,Source power (W),Etch rate (nm/min)
+source_power_w,375.9493670886076,72.811,Source power (W),Etch rate (nm/min)
+source_power_w,391.1392405063291,73.954,Source power (W),Etch rate (nm/min)
+source_power_w,406.3291139240506,75.088,Source power (W),Etch rate (nm/min)
+source_power_w,421.5189873417721,76.216,Source power (W),Etch rate (nm/min)
+source_power_w,436.70886075949363,77.335,Source power (W),Etch rate (nm/min)
+source_power_w,451.89873417721515,78.448,Source power (W),Etch rate (nm/min)
+source_power_w,467.08860759493666,79.553,Source power (W),Etch rate (nm/min)
+source_power_w,482.27848101265823,80.651,Source power (W),Etch rate (nm/min)
+source_power_w,497.46835443037975,81.742,Source power (W),Etch rate (nm/min)
+source_power_w,512.6582278481012,82.826,Source power (W),Etch rate (nm/min)
+source_power_w,527.8481012658228,83.903,Source power (W),Etch rate (nm/min)
+source_power_w,543.0379746835442,84.973,Source power (W),Etch rate (nm/min)
+source_power_w,558.2278481012659,86.037,Source power (W),Etch rate (nm/min)
+source_power_w,573.4177215189873,87.094,Source power (W),Etch rate (nm/min)
+source_power_w,588.6075949367089,88.145,Source power (W),Etch rate (nm/min)
+source_power_w,603.7974683544303,89.19,Source power (W),Etch rate (nm/min)
+source_power_w,618.9873417721519,90.228,Source power (W),Etch rate (nm/min)
+source_power_w,634.1772151898733,91.26,Source power (W),Etch rate (nm/min)
+source_power_w,649.367088607595,92.286,Source power (W),Etch rate (nm/min)
+source_power_w,664.5569620253165,93.306,Source power (W),Etch rate (nm/min)
+source_power_w,679.746835443038,94.319,Source power (W),Etch rate (nm/min)
+source_power_w,694.9367088607595,95.327,Source power (W),Etch rate (nm/min)
+source_power_w,710.126582278481,96.329,Source power (W),Etch rate (nm/min)
+source_power_w,725.3164556962025,97.326,Source power (W),Etch rate (nm/min)
+source_power_w,740.506329113924,98.316,Source power (W),Etch rate (nm/min)
+source_power_w,755.6962025316456,99.301,Source power (W),Etch rate (nm/min)
+source_power_w,770.8860759493671,100.28,Source power (W),Etch rate (nm/min)
+source_power_w,786.0759493670886,101.254,Source power (W),Etch rate (nm/min)
+source_power_w,801.2658227848101,102.222,Source power (W),Etch rate (nm/min)
+source_power_w,816.4556962025316,103.185,Source power (W),Etch rate (nm/min)
+source_power_w,831.6455696202531,104.143,Source power (W),Etch rate (nm/min)
+source_power_w,846.8354430379746,105.095,Source power (W),Etch rate (nm/min)
+source_power_w,862.0253164556962,106.042,Source power (W),Etch rate (nm/min)
+source_power_w,877.2151898734177,106.984,Source power (W),Etch rate (nm/min)
+source_power_w,892.4050632911392,107.92,Source power (W),Etch rate (nm/min)
+source_power_w,907.5949367088607,108.852,Source power (W),Etch rate (nm/min)
+source_power_w,922.7848101265822,109.778,Source power (W),Etch rate (nm/min)
+source_power_w,937.9746835443037,110.699,Source power (W),Etch rate (nm/min)
+source_power_w,953.1645569620252,111.616,Source power (W),Etch rate (nm/min)
+source_power_w,968.3544303797468,112.527,Source power (W),Etch rate (nm/min)
+source_power_w,983.5443037974683,113.434,Source power (W),Etch rate (nm/min)
+source_power_w,998.7341772151898,114.336,Source power (W),Etch rate (nm/min)
+source_power_w,1013.9240506329113,115.233,Source power (W),Etch rate (nm/min)
+source_power_w,1029.113924050633,116.125,Source power (W),Etch rate (nm/min)
+source_power_w,1044.3037974683543,117.012,Source power (W),Etch rate (nm/min)
+source_power_w,1059.493670886076,117.895,Source power (W),Etch rate (nm/min)
+source_power_w,1074.6835443037976,118.773,Source power (W),Etch rate (nm/min)
+source_power_w,1089.873417721519,119.647,Source power (W),Etch rate (nm/min)
+source_power_w,1105.0632911392404,120.516,Source power (W),Etch rate (nm/min)
+source_power_w,1120.253164556962,121.38,Source power (W),Etch rate (nm/min)
+source_power_w,1135.4430379746836,122.24,Source power (W),Etch rate (nm/min)
+source_power_w,1150.632911392405,123.096,Source power (W),Etch rate (nm/min)
+source_power_w,1165.8227848101264,123.947,Source power (W),Etch rate (nm/min)
+source_power_w,1181.012658227848,124.793,Source power (W),Etch rate (nm/min)
+source_power_w,1196.2025316455697,125.636,Source power (W),Etch rate (nm/min)
+source_power_w,1211.392405063291,126.474,Source power (W),Etch rate (nm/min)
+source_power_w,1226.5822784810125,127.307,Source power (W),Etch rate (nm/min)
+source_power_w,1241.7721518987341,128.137,Source power (W),Etch rate (nm/min)
+source_power_w,1256.9620253164558,128.962,Source power (W),Etch rate (nm/min)
+source_power_w,1272.1518987341772,129.783,Source power (W),Etch rate (nm/min)
+source_power_w,1287.3417721518986,130.6,Source power (W),Etch rate (nm/min)
+source_power_w,1302.5316455696202,131.412,Source power (W),Etch rate (nm/min)
+source_power_w,1317.7215189873418,132.221,Source power (W),Etch rate (nm/min)
+source_power_w,1332.9113924050632,133.026,Source power (W),Etch rate (nm/min)
+source_power_w,1348.1012658227849,133.826,Source power (W),Etch rate (nm/min)
+source_power_w,1363.2911392405063,134.622,Source power (W),Etch rate (nm/min)
+source_power_w,1378.4810126582279,135.415,Source power (W),Etch rate (nm/min)
+source_power_w,1393.6708860759493,136.203,Source power (W),Etch rate (nm/min)
+source_power_w,1408.860759493671,136.988,Source power (W),Etch rate (nm/min)
+source_power_w,1424.0506329113923,137.768,Source power (W),Etch rate (nm/min)
+source_power_w,1439.240506329114,138.545,Source power (W),Etch rate (nm/min)
+source_power_w,1454.4303797468353,139.318,Source power (W),Etch rate (nm/min)
+source_power_w,1469.620253164557,140.087,Source power (W),Etch rate (nm/min)
+source_power_w,1484.8101265822784,140.852,Source power (W),Etch rate (nm/min)
+source_power_w,1500.0,141.614,Source power (W),Etch rate (nm/min)
+temperature_c,20.0,81.29,Temperature (°C),Etch rate (nm/min)
+temperature_c,21.0126582278481,81.976,Temperature (°C),Etch rate (nm/min)
+temperature_c,22.025316455696203,82.662,Temperature (°C),Etch rate (nm/min)
+temperature_c,23.037974683544306,83.348,Temperature (°C),Etch rate (nm/min)
+temperature_c,24.050632911392405,84.034,Temperature (°C),Etch rate (nm/min)
+temperature_c,25.063291139240505,84.72,Temperature (°C),Etch rate (nm/min)
+temperature_c,26.075949367088608,85.406,Temperature (°C),Etch rate (nm/min)
+temperature_c,27.08860759493671,86.092,Temperature (°C),Etch rate (nm/min)
+temperature_c,28.10126582278481,86.778,Temperature (°C),Etch rate (nm/min)
+temperature_c,29.11392405063291,87.464,Temperature (°C),Etch rate (nm/min)
+temperature_c,30.126582278481013,88.15,Temperature (°C),Etch rate (nm/min)
+temperature_c,31.139240506329116,88.836,Temperature (°C),Etch rate (nm/min)
+temperature_c,32.151898734177216,89.522,Temperature (°C),Etch rate (nm/min)
+temperature_c,33.164556962025316,90.208,Temperature (°C),Etch rate (nm/min)
+temperature_c,34.17721518987342,90.894,Temperature (°C),Etch rate (nm/min)
+temperature_c,35.18987341772152,91.58,Temperature (°C),Etch rate (nm/min)
+temperature_c,36.20253164556962,92.266,Temperature (°C),Etch rate (nm/min)
+temperature_c,37.21518987341772,92.952,Temperature (°C),Etch rate (nm/min)
+temperature_c,38.22784810126582,93.638,Temperature (°C),Etch rate (nm/min)
+temperature_c,39.24050632911393,94.324,Temperature (°C),Etch rate (nm/min)
+temperature_c,40.25316455696203,95.01,Temperature (°C),Etch rate (nm/min)
+temperature_c,41.265822784810126,95.696,Temperature (°C),Etch rate (nm/min)
+temperature_c,42.27848101265823,96.382,Temperature (°C),Etch rate (nm/min)
+temperature_c,43.29113924050633,97.068,Temperature (°C),Etch rate (nm/min)
+temperature_c,44.30379746835443,97.754,Temperature (°C),Etch rate (nm/min)
+temperature_c,45.31645569620253,98.44,Temperature (°C),Etch rate (nm/min)
+temperature_c,46.32911392405063,99.126,Temperature (°C),Etch rate (nm/min)
+temperature_c,47.34177215189874,99.812,Temperature (°C),Etch rate (nm/min)
+temperature_c,48.35443037974684,100.498,Temperature (°C),Etch rate (nm/min)
+temperature_c,49.36708860759494,101.184,Temperature (°C),Etch rate (nm/min)
+temperature_c,50.37974683544304,101.87,Temperature (°C),Etch rate (nm/min)
+temperature_c,51.39240506329114,102.556,Temperature (°C),Etch rate (nm/min)
+temperature_c,52.40506329113924,103.242,Temperature (°C),Etch rate (nm/min)
+temperature_c,53.41772151898734,103.928,Temperature (°C),Etch rate (nm/min)
+temperature_c,54.43037974683544,104.614,Temperature (°C),Etch rate (nm/min)
+temperature_c,55.44303797468355,105.3,Temperature (°C),Etch rate (nm/min)
+temperature_c,56.45569620253165,105.986,Temperature (°C),Etch rate (nm/min)
+temperature_c,57.46835443037975,106.672,Temperature (°C),Etch rate (nm/min)
+temperature_c,58.481012658227854,107.358,Temperature (°C),Etch rate (nm/min)
+temperature_c,59.493670886075954,108.044,Temperature (°C),Etch rate (nm/min)
+temperature_c,60.50632911392405,108.73,Temperature (°C),Etch rate (nm/min)
+temperature_c,61.51898734177215,109.416,Temperature (°C),Etch rate (nm/min)
+temperature_c,62.53164556962025,110.102,Temperature (°C),Etch rate (nm/min)
+temperature_c,63.54430379746836,110.788,Temperature (°C),Etch rate (nm/min)
+temperature_c,64.55696202531647,111.474,Temperature (°C),Etch rate (nm/min)
+temperature_c,65.56962025316456,112.16,Temperature (°C),Etch rate (nm/min)
+temperature_c,66.58227848101266,112.846,Temperature (°C),Etch rate (nm/min)
+temperature_c,67.59493670886076,113.532,Temperature (°C),Etch rate (nm/min)
+temperature_c,68.60759493670886,114.217,Temperature (°C),Etch rate (nm/min)
+temperature_c,69.62025316455697,114.903,Temperature (°C),Etch rate (nm/min)
+temperature_c,70.63291139240506,115.589,Temperature (°C),Etch rate (nm/min)
+temperature_c,71.64556962025317,116.275,Temperature (°C),Etch rate (nm/min)
+temperature_c,72.65822784810126,116.961,Temperature (°C),Etch rate (nm/min)
+temperature_c,73.67088607594937,117.647,Temperature (°C),Etch rate (nm/min)
+temperature_c,74.68354430379748,118.333,Temperature (°C),Etch rate (nm/min)
+temperature_c,75.69620253164558,119.019,Temperature (°C),Etch rate (nm/min)
+temperature_c,76.70886075949367,119.705,Temperature (°C),Etch rate (nm/min)
+temperature_c,77.72151898734177,120.391,Temperature (°C),Etch rate (nm/min)
+temperature_c,78.73417721518987,121.077,Temperature (°C),Etch rate (nm/min)
+temperature_c,79.74683544303798,121.763,Temperature (°C),Etch rate (nm/min)
+temperature_c,80.75949367088609,122.449,Temperature (°C),Etch rate (nm/min)
+temperature_c,81.77215189873418,123.135,Temperature (°C),Etch rate (nm/min)
+temperature_c,82.78481012658229,123.821,Temperature (°C),Etch rate (nm/min)
+temperature_c,83.79746835443038,124.507,Temperature (°C),Etch rate (nm/min)
+temperature_c,84.81012658227849,125.193,Temperature (°C),Etch rate (nm/min)
+temperature_c,85.82278481012659,125.879,Temperature (°C),Etch rate (nm/min)
+temperature_c,86.83544303797468,126.565,Temperature (°C),Etch rate (nm/min)
+temperature_c,87.84810126582279,127.251,Temperature (°C),Etch rate (nm/min)
+temperature_c,88.86075949367088,127.937,Temperature (°C),Etch rate (nm/min)
+temperature_c,89.87341772151899,128.623,Temperature (°C),Etch rate (nm/min)
+temperature_c,90.8860759493671,129.309,Temperature (°C),Etch rate (nm/min)
+temperature_c,91.89873417721519,129.995,Temperature (°C),Etch rate (nm/min)
+temperature_c,92.9113924050633,130.681,Temperature (°C),Etch rate (nm/min)
+temperature_c,93.9240506329114,131.367,Temperature (°C),Etch rate (nm/min)
+temperature_c,94.9367088607595,132.053,Temperature (°C),Etch rate (nm/min)
+temperature_c,95.9493670886076,132.739,Temperature (°C),Etch rate (nm/min)
+temperature_c,96.96202531645571,133.425,Temperature (°C),Etch rate (nm/min)
+temperature_c,97.9746835443038,134.111,Temperature (°C),Etch rate (nm/min)
+temperature_c,98.98734177215191,134.797,Temperature (°C),Etch rate (nm/min)
+temperature_c,100.0,135.483,Temperature (°C),Etch rate (nm/min)
+pressure_mtorr,5.0,147.389,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,6.2025316455696204,146.36,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,7.405063291139241,145.333,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,8.60759493670886,144.307,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,9.810126582278482,143.284,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,11.012658227848101,142.262,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,12.215189873417721,141.242,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,13.417721518987342,140.224,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,14.620253164556962,139.208,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,15.822784810126581,138.194,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,17.025316455696203,137.182,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,18.22784810126582,136.172,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,19.430379746835442,135.164,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,20.632911392405063,134.158,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,21.835443037974684,133.154,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,23.037974683544302,132.153,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,24.240506329113924,131.154,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,25.443037974683545,130.157,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,26.645569620253163,129.162,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,27.848101265822784,128.17,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,29.050632911392405,127.18,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,30.253164556962023,126.192,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,31.455696202531644,125.207,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,32.65822784810126,124.224,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,33.860759493670884,123.244,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,35.063291139240505,122.266,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,36.265822784810126,121.291,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,37.46835443037975,120.318,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,38.67088607594937,119.348,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,39.87341772151898,118.381,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,41.075949367088604,117.416,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,42.278481012658226,116.454,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,43.48101265822785,115.494,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,44.68354430379747,114.537,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,45.88607594936709,113.583,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,47.08860759493671,112.632,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,48.291139240506325,111.684,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,49.49367088607595,110.738,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,50.69620253164557,109.795,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,51.89873417721519,108.855,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,53.10126582278481,107.918,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,54.30379746835443,106.984,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,55.506329113924046,106.053,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,56.70886075949367,105.125,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,57.91139240506329,104.2,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,59.11392405063291,103.278,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,60.31645569620253,102.359,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,61.51898734177215,101.443,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,62.72151898734177,100.531,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,63.92405063291139,99.621,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,65.12658227848101,98.714,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,66.32911392405063,97.811,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,67.53164556962025,96.911,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,68.73417721518987,96.014,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,69.9367088607595,95.12,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,71.13924050632912,94.229,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,72.34177215189874,93.342,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,73.54430379746836,92.458,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,74.74683544303797,91.577,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,75.94936708860759,90.7,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,77.15189873417721,89.825,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,78.35443037974683,88.955,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,79.55696202531645,88.087,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,80.75949367088607,87.223,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,81.9620253164557,86.362,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,83.16455696202532,85.505,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,84.36708860759494,84.651,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,85.56962025316456,83.8,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,86.77215189873418,82.953,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,87.9746835443038,82.109,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,89.17721518987342,81.269,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,90.37974683544303,80.432,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,91.58227848101265,79.598,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,92.78481012658227,78.768,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,93.9873417721519,77.942,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,95.18987341772151,77.119,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,96.39240506329114,76.299,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,97.59493670886076,75.483,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,98.79746835443038,74.671,Pressure (mTorr),Etch rate (nm/min)
+pressure_mtorr,100.0,73.862,Pressure (mTorr),Etch rate (nm/min)
+gas_chemistry,0.0,0.6074935569986422,Gas chemistry,Undercut probability
+gas_chemistry,0.012658227848101266,0.6010820243844671,Gas chemistry,Undercut probability
+gas_chemistry,0.02531645569620253,0.5942409107169376,Gas chemistry,Undercut probability
+gas_chemistry,0.0379746835443038,0.5870071549310801,Gas chemistry,Undercut probability
+gas_chemistry,0.05063291139240506,0.5796131645654683,Gas chemistry,Undercut probability
+gas_chemistry,0.06329113924050633,0.5718176711951909,Gas chemistry,Undercut probability
+gas_chemistry,0.0759493670886076,0.5637355515998369,Gas chemistry,Undercut probability
+gas_chemistry,0.08860759493670886,0.5553505918448446,Gas chemistry,Undercut probability
+gas_chemistry,0.10126582278481013,0.5464489211664665,Gas chemistry,Undercut probability
+gas_chemistry,0.11392405063291139,0.5372330915732656,Gas chemistry,Undercut probability
+gas_chemistry,0.12658227848101267,0.5277183138551161,Gas chemistry,Undercut probability
+gas_chemistry,0.13924050632911392,0.5178174092657752,Gas chemistry,Undercut probability
+gas_chemistry,0.1518987341772152,0.5074547350490013,Gas chemistry,Undercut probability
+gas_chemistry,0.16455696202531644,0.4968718200755837,Gas chemistry,Undercut probability
+gas_chemistry,0.17721518987341772,0.4858321748716035,Gas chemistry,Undercut probability
+gas_chemistry,0.18987341772151897,0.4745080826765923,Gas chemistry,Undercut probability
+gas_chemistry,0.20253164556962025,0.4626528624532997,Gas chemistry,Undercut probability
+gas_chemistry,0.21518987341772153,0.4506847002643323,Gas chemistry,Undercut probability
+gas_chemistry,0.22784810126582278,0.4383230570610594,Gas chemistry,Undercut probability
+gas_chemistry,0.24050632911392406,0.4256193183114363,Gas chemistry,Undercut probability
+gas_chemistry,0.25316455696202533,0.4128131183853473,Gas chemistry,Undercut probability
+gas_chemistry,0.26582278481012656,0.399642606703242,Gas chemistry,Undercut probability
+gas_chemistry,0.27848101265822783,0.3862498010768665,Gas chemistry,Undercut probability
+gas_chemistry,0.2911392405063291,0.37280461461024567,Gas chemistry,Undercut probability
+gas_chemistry,0.3037974683544304,0.35921078151001384,Gas chemistry,Undercut probability
+gas_chemistry,0.31645569620253167,0.34539141881786956,Gas chemistry,Undercut probability
+gas_chemistry,0.3291139240506329,0.33173979320908803,Gas chemistry,Undercut probability
+gas_chemistry,0.34177215189873417,0.3180309984542963,Gas chemistry,Undercut probability
+gas_chemistry,0.35443037974683544,0.3042513535622404,Gas chemistry,Undercut probability
+gas_chemistry,0.3670886075949367,0.29074770679106327,Gas chemistry,Undercut probability
+gas_chemistry,0.37974683544303794,0.27738685035511235,Gas chemistry,Undercut probability
+gas_chemistry,0.3924050632911392,0.26421847656214653,Gas chemistry,Undercut probability
+gas_chemistry,0.4050632911392405,0.2511923388264265,Gas chemistry,Undercut probability
+gas_chemistry,0.4177215189873418,0.23848109295504372,Gas chemistry,Undercut probability
+gas_chemistry,0.43037974683544306,0.2324473803287468,Gas chemistry,Undercut probability
+gas_chemistry,0.4430379746835443,0.2268501038103559,Gas chemistry,Undercut probability
+gas_chemistry,0.45569620253164556,0.22136537954704896,Gas chemistry,Undercut probability
+gas_chemistry,0.46835443037974683,0.21603105509079237,Gas chemistry,Undercut probability
+gas_chemistry,0.4810126582278481,0.21072499848213325,Gas chemistry,Undercut probability
+gas_chemistry,0.49367088607594933,0.20557273053100242,Gas chemistry,Undercut probability
+gas_chemistry,0.5063291139240507,0.200551542974272,Gas chemistry,Undercut probability
+gas_chemistry,0.5189873417721519,0.19561204532274773,Gas chemistry,Undercut probability
+gas_chemistry,0.5316455696202531,0.19082745127502368,Gas chemistry,Undercut probability
+gas_chemistry,0.5443037974683544,0.18604050281893636,Gas chemistry,Undercut probability
+gas_chemistry,0.5569620253164557,0.18141985402189684,Gas chemistry,Undercut probability
+gas_chemistry,0.569620253164557,0.17681158320685675,Gas chemistry,Undercut probability
+gas_chemistry,0.5822784810126582,0.17234058858757406,Gas chemistry,Undercut probability
+gas_chemistry,0.5949367088607594,0.16794075009042497,Gas chemistry,Undercut probability
+gas_chemistry,0.6075949367088608,0.16362285599601256,Gas chemistry,Undercut probability
+gas_chemistry,0.620253164556962,0.15935706795502189,Gas chemistry,Undercut probability
+gas_chemistry,0.6329113924050633,0.15514441073673835,Gas chemistry,Undercut probability
+gas_chemistry,0.6455696202531646,0.1510595557606553,Gas chemistry,Undercut probability
+gas_chemistry,0.6582278481012658,0.1470182382744007,Gas chemistry,Undercut probability
+gas_chemistry,0.6708860759493671,0.1430215718012316,Gas chemistry,Undercut probability
+gas_chemistry,0.6835443037974683,0.13917073212975353,Gas chemistry,Undercut probability
+gas_chemistry,0.6962025316455696,0.13536329398693167,Gas chemistry,Undercut probability
+gas_chemistry,0.7088607594936709,0.13160281236381724,Gas chemistry,Undercut probability
+gas_chemistry,0.7215189873417721,0.12798311187906303,Gas chemistry,Undercut probability
+gas_chemistry,0.7341772151898734,0.12445917497597205,Gas chemistry,Undercut probability
+gas_chemistry,0.7468354430379747,0.12099803549212367,Gas chemistry,Undercut probability
+gas_chemistry,0.7594936708860759,0.11761162222526562,Gas chemistry,Undercut probability
+gas_chemistry,0.7721518987341772,0.1143407032946898,Gas chemistry,Undercut probability
+gas_chemistry,0.7848101265822784,0.11118088800415385,Gas chemistry,Undercut probability
+gas_chemistry,0.7974683544303798,0.10811055392662854,Gas chemistry,Undercut probability
+gas_chemistry,0.810126582278481,0.10513025526490022,Gas chemistry,Undercut probability
+gas_chemistry,0.8227848101265822,0.10225756394971773,Gas chemistry,Undercut probability
+gas_chemistry,0.8354430379746836,0.09947309192266682,Gas chemistry,Undercut probability
+gas_chemistry,0.8481012658227848,0.09678980416330901,Gas chemistry,Undercut probability
+gas_chemistry,0.8607594936708861,0.09420950650045398,Gas chemistry,Undercut probability
+gas_chemistry,0.8734177215189873,0.09169024925315877,Gas chemistry,Undercut probability
+gas_chemistry,0.8860759493670886,0.08928693523139304,Gas chemistry,Undercut probability
+gas_chemistry,0.8987341772151899,0.08697861541487051,Gas chemistry,Undercut probability
+gas_chemistry,0.9113924050632911,0.08472503602186866,Gas chemistry,Undercut probability
+gas_chemistry,0.9240506329113924,0.0826145456705329,Gas chemistry,Undercut probability
+gas_chemistry,0.9367088607594937,0.0805213541910818,Gas chemistry,Undercut probability
+gas_chemistry,0.9493670886075949,0.07854929838161626,Gas chemistry,Undercut probability
+gas_chemistry,0.9620253164556962,0.076639968089238,Gas chemistry,Undercut probability
+gas_chemistry,0.9746835443037974,0.07481065998550011,Gas chemistry,Undercut probability
+gas_chemistry,0.9873417721518987,0.07306156142813115,Gas chemistry,Undercut probability
+gas_chemistry,1.0,0.07139929127458644,Gas chemistry,Undercut probability
+gas_chemistry_passivation,0.0,0.1598,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.012658227848101266,0.1649,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.02531645569620253,0.1702,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.0379746835443038,0.1757,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.05063291139240506,0.1812,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.06329113924050633,0.1869,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.0759493670886076,0.1928,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.08860759493670886,0.1987,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.10126582278481013,0.2049,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.11392405063291139,0.2111,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.12658227848101267,0.2175,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.13924050632911392,0.224,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.1518987341772152,0.2307,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.16455696202531644,0.2375,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.17721518987341772,0.2445,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.18987341772151897,0.2515,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.20253164556962025,0.2588,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.21518987341772153,0.2661,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.22784810126582278,0.2736,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.24050632911392406,0.2812,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.25316455696202533,0.2889,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.26582278481012656,0.2968,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.27848101265822783,0.3048,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.2911392405063291,0.3129,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.3037974683544304,0.3211,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.31645569620253167,0.3295,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.3291139240506329,0.3379,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.34177215189873417,0.3464,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.35443037974683544,0.3551,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.3670886075949367,0.3638,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.37974683544303794,0.3727,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.3924050632911392,0.3816,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.4050632911392405,0.3906,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.4177215189873418,0.3997,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.43037974683544306,0.4088,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.4430379746835443,0.418,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.45569620253164556,0.4273,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.46835443037974683,0.4366,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.4810126582278481,0.446,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.49367088607594933,0.4554,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5063291139240507,0.4648,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5189873417721519,0.4743,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5316455696202531,0.4837,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5443037974683544,0.4932,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5569620253164557,0.5027,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.569620253164557,0.5122,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5822784810126582,0.5217,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.5949367088607594,0.5312,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6075949367088608,0.5406,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.620253164556962,0.55,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6329113924050633,0.5594,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6455696202531646,0.5687,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6582278481012658,0.578,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6708860759493671,0.5873,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6835443037974683,0.5964,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.6962025316455696,0.6055,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7088607594936709,0.6146,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7215189873417721,0.6235,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7341772151898734,0.6324,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7468354430379747,0.6412,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7594936708860759,0.6499,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7721518987341772,0.6585,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7848101265822784,0.667,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.7974683544303798,0.6753,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.810126582278481,0.6836,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8227848101265822,0.6918,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8354430379746836,0.6998,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8481012658227848,0.7077,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8607594936708861,0.7155,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8734177215189873,0.7232,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8860759493670886,0.7307,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.8987341772151899,0.7381,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9113924050632911,0.7454,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9240506329113924,0.7525,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9367088607594937,0.7595,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9493670886075949,0.7664,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9620253164556962,0.7731,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9746835443037974,0.7797,Gas chemistry,Passivation index
+gas_chemistry_passivation,0.9873417721518987,0.7862,Gas chemistry,Passivation index
+gas_chemistry_passivation,1.0,0.7925,Gas chemistry,Passivation index

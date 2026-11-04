@@ -1,0 +1,152 @@
+{
+  "mode": "fast",
+  "seed": 42,
+  "split_sizes": {
+    "train": 3000,
+    "val": 1000,
+    "test": 1000
+  },
+  "model_comparison": [
+    {
+      "display": "HistGradientBoosting",
+      "cv_macro_f1": 0.3624048764676495,
+      "baseline_cv_macro_f1": 0.36439257092672833,
+      "val_accuracy": 0.547,
+      "val_macro_f1": 0.37402673560722066,
+      "val_weighted_f1": 0.5152168450952502,
+      "worst_class_recall": 0.031914893617021274,
+      "fit_time_sec": 27.347968600000968,
+      "opt_time_sec": 120.74034859999847,
+      "complexity": 108,
+      "inference_ms_per_100": 25.176099999953294
+    },
+    {
+      "display": "XGBoost",
+      "cv_macro_f1": 0.35287307466799894,
+      "baseline_cv_macro_f1": 0.36070771813051655,
+      "val_accuracy": 0.549,
+      "val_macro_f1": 0.35809821280583976,
+      "val_weighted_f1": 0.5111677305524414,
+      "worst_class_recall": 0.0,
+      "fit_time_sec": 25.80983820000074,
+      "opt_time_sec": 285.5287350999988,
+      "complexity": 486,
+      "inference_ms_per_100": 5.760999999984051
+    },
+    {
+      "display": "Random Forest",
+      "cv_macro_f1": 0.35981912370686103,
+      "baseline_cv_macro_f1": 0.35505794584025824,
+      "val_accuracy": 0.544,
+      "val_macro_f1": 0.3560191840105193,
+      "val_weighted_f1": 0.5085707887613045,
+      "worst_class_recall": 0.0,
+      "fit_time_sec": 7.141736999999921,
+      "opt_time_sec": 79.95339480000075,
+      "complexity": 6300,
+      "inference_ms_per_100": 33.56736000023375
+    },
+    {
+      "display": "Extra Trees",
+      "cv_macro_f1": 0.36466435543568676,
+      "baseline_cv_macro_f1": 0.35985044671589145,
+      "val_accuracy": 0.543,
+      "val_macro_f1": 0.35142369006692786,
+      "val_weighted_f1": 0.5052762712826087,
+      "worst_class_recall": 0.0,
+      "fit_time_sec": 4.127654999998413,
+      "opt_time_sec": 48.41881430000103,
+      "complexity": 6650,
+      "inference_ms_per_100": 55.74992000001657
+    }
+  ],
+  "best_model": "hist_gradient_boosting",
+  "selection_scores": {
+    "val_macro_f1": 0.37402673560722066,
+    "val_accuracy": 0.547,
+    "worst_class_recall": 0.031914893617021274,
+    "complexity": 108,
+    "inference_ms_per_100": 25.176099999953294
+  },
+  "test_metrics": {
+    "accuracy": 0.525,
+    "macro_precision": 0.3673574444267973,
+    "macro_recall": 0.36609503610628613,
+    "macro_f1": 0.34825886114161564,
+    "weighted_f1": 0.4926613176298435
+  },
+  "robustness_shift": {
+    "accuracy": 0.488,
+    "macro_precision": 0.3546349674409178,
+    "macro_recall": 0.3750473740916195,
+    "macro_f1": 0.35430106863675465,
+    "weighted_f1": 0.45132230018399466
+  },
+  "recommendation": {
+    "original": {
+      "gas_chemistry": 0.5,
+      "gas_flow_sccm": 125.0,
+      "pressure_mtorr": 52.5,
+      "bias_power_w": 175.0,
+      "source_power_w": 900.0,
+      "temperature_c": 60.0
+    },
+    "recommended": {
+      "gas_chemistry": 0.5664432647313167,
+      "gas_flow_sccm": 164.46550555561478,
+      "pressure_mtorr": 12.271336755186582,
+      "bias_power_w": 274.6445831885842,
+      "source_power_w": 715.3812644464144,
+      "temperature_c": 55.141673990485515
+    },
+    "defect_before": "Normal",
+    "defect_after": "Normal",
+    "normal_prob_before": 0.4759443404378348,
+    "normal_prob_after": 0.8405646835936887
+  },
+  "validation_delta": [
+    {
+      "metric": "Etch depth (nm)",
+      "before": 108.387,
+      "after": 197.473,
+      "delta": 89.08600000000001,
+      "delta_pct": 82.19251386236358
+    },
+    {
+      "metric": "Top CD (nm)",
+      "before": 200.73452339974284,
+      "after": 200.7515094716399,
+      "delta": 0.016986071897065358,
+      "delta_pct": 0.00846195841621089
+    },
+    {
+      "metric": "Middle CD (nm)",
+      "before": 188.2766732535639,
+      "after": 192.6743990534195,
+      "delta": 4.397725799855607,
+      "delta_pct": 2.335778364817885
+    },
+    {
+      "metric": "Bottom CD (nm)",
+      "before": 177.87915326007732,
+      "after": 188.85544547181317,
+      "delta": 10.976292211735853,
+      "delta_pct": 6.170645638102068
+    },
+    {
+      "metric": "Sidewall angle (deg)",
+      "before": 83.63054271125495,
+      "after": 88.16969576751326,
+      "delta": 4.539153056258314,
+      "delta_pct": 5.427625971447196
+    },
+    {
+      "metric": "Defect severity (0-100)",
+      "before": 17.008299291840455,
+      "after": 10.58321520453753,
+      "delta": -6.425084087302926,
+      "delta_pct": -37.77617019230893
+    }
+  ],
+  "elapsed_sec": 745.5
+}

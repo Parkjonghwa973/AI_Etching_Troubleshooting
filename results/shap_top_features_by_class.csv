@@ -1,0 +1,5 @@
+﻿class,class_name,top_features
+1,Undercut,"gas_chemistry, temperature_c, bias_power_w"
+2,Bowing,"bias_power_w, pressure_mtorr, gas_chemistry"
+3,Etch Stop,"bias_power_w, temperature_c, gas_chemistry"
+4,Footing,"bias_power_w, source_power_w, temperature_c"

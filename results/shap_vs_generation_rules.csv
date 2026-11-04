@@ -1,0 +1,7 @@
+﻿feature,mean_abs_shap,in_generation_rules,rank
+bias_power_w,0.38776404,True,1
+gas_chemistry,0.30877063,False,2
+temperature_c,0.25019163,True,3
+source_power_w,0.19606487,True,4
+pressure_mtorr,0.19442055,True,5
+gas_flow_sccm,0.108733386,False,6

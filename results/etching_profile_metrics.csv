@@ -1,0 +1,6 @@
+﻿Defect,Etch depth (nm),Top CD (nm),Middle CD (nm),Bottom CD (nm),Max lateral dev. (nm),Sidewall angle (deg)
+Normal,108.4,200.7,188.3,177.9,1.5,83.6
+Undercut,108.4,238.7,189.0,177.9,20.1,74.5
+Bowing,108.4,201.1,219.7,178.2,16.4,83.6
+Etch Stop,48.8,200.7,188.3,192.3,8.9,84.5
+Footing,108.4,200.7,188.3,223.7,25.2,90.0
