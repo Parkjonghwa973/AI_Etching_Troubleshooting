@@ -1,7 +1,7 @@
 Parameter,Original,Recommended,Change,Change (%)
-gas_chemistry,0.5,0.566,0.066,13.3
-gas_flow_sccm,125.0,164.466,39.466,31.6
-pressure_mtorr,52.5,12.271,-40.229,-76.6
-bias_power_w,175.0,274.645,99.645,56.9
-source_power_w,900.0,715.381,-184.619,-20.5
-temperature_c,60.0,55.142,-4.858,-8.1
+gas_chemistry,0.5,0.602,0.102,20.4
+gas_flow_sccm,125.0,176.855,51.855,41.5
+pressure_mtorr,52.5,50.443,-2.057,-3.9
+bias_power_w,175.0,167.78,-7.22,-4.1
+source_power_w,900.0,1058.398,158.398,17.6
+temperature_c,60.0,56.132,-3.868,-6.4

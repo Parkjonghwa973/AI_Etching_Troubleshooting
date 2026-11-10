@@ -10,3 +10,10 @@ test_child_normal.txt
 
 models_smoke/
 results/automl_smoke/
+
+# 로컬 백업 폴더 및 압축 파일 (용량 큰 로컬 전용 파일)
+*_backup_5class/
+*.zip
+_tmp_test_sim.py
+test_child_detached.log
+test_child_normal.log

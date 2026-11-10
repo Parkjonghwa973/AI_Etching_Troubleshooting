@@ -20,7 +20,7 @@ data_generator.py
 
 불량 유형 (라벨)
 ---------------
-0: Normal, 1: Undercut, 2: Bowing, 3: Etch Stop, 4: Footing
+0: Normal, 1: Undercut, 2: Bowing, 3: Etch Stop, 4: Footing, 5: Punch-through
 
 생성 규칙 (요약, 코드의 :data:`GENERATION_RULES` 와 일치)
 --------------------------------------------------------
@@ -33,6 +33,9 @@ data_generator.py
 - Undercut / Bowing 은 측벽 보호 효과가 부족할 때 발생 확률이 증가합니다.
 - Etch Stop 은 유효 식각 속도가 낮을 때 발생 확률이 증가합니다.
 - Footing 은 별도의 하단 형상 외곡 지표(footing index)에 의해 발생합니다.
+- Punch-through 는 목표 식각층 두께를 초과하여 하부층까지 과식각하는 현상으로,
+  식각 속도가 높고 방향성(anisotropy)이 강할 때 발생 확률이 증가합니다.
+  목표층 두께는 교육용 가상 상수(기본 80 nm, 식각 시간 60 s)로 설정합니다.
 - 변수 간 상호작용과 측정 오차(노이즈)를 포함하며, random_state 로 재현합니다.
 """
 
@@ -79,12 +82,18 @@ PROCESS_BOUNDS: Dict[str, Tuple[float, float]] = {
     "temperature_c": (20.0, 100.0),
 }
 
+# 교육용 가상 목표층 두께 (nm): Punch-through 판정 기준
+# 실제 장비의 특정 층 두께가 아닌, 교육용 시뮬레이션에서 과식각을 설명하기 위한 상수입니다.
+TARGET_DEPTH_NM: float = 80.0
+ETCH_TIME_MIN: float = 1.0  # 기본 식각 시간 60 s = 1 min
+
 DEFECT_NAMES: Dict[int, str] = {
     0: "Normal",
     1: "Undercut",
     2: "Bowing",
     3: "Etch Stop",
     4: "Footing",
+    5: "Punch-through",
 }
 DEFECT_NAME_TO_ID: Dict[str, int] = {v: k for k, v in DEFECT_NAMES.items()}
 N_CLASSES = len(DEFECT_NAMES)
@@ -106,6 +115,10 @@ GENERATION_RULES: Dict[str, str] = {
         "별도로 계산하는 하단 형상 외곡 지표(footing index)가 클 때 "
         "하단 CD 변화(footing) 확률이 증가합니다."
     ),
+    "Punch-through": (
+        "식각 속도가 높아 목표층 두께(교육용 가상 80 nm)를 초과하고, "
+        "방향성(anisotropy)이 강할 때 하부층까지 과식각될 확률이 증가합니다."
+    ),
     "Normal": (
         "모든 결함 점수가 낮고 식각 속도·측벽 보호가 적절할 때 Normal 확률이 증가합니다."
     ),
@@ -118,6 +131,7 @@ GROUND_TRUTH_FEATURES: Dict[int, List[str]] = {
     2: ["passivation_index", "pressure_mtorr", "bias_power_w"],
     3: ["etch_rate_nm_min", "source_power_w", "bias_power_w"],
     4: ["footing_index", "bias_power_w", "temperature_c"],
+    5: ["etch_rate_nm_min", "anisotropy_index", "source_power_w"],
 }
 
 
@@ -278,15 +292,19 @@ def defect_probabilities(
     bowing_driver: Optional[np.ndarray] = None,
     temperature_c: Optional[np.ndarray] = None,
 ) -> np.ndarray:
-    """지표로부터 불량 유형별 발생 확률 (5-class softmax)을 계산합니다.
+    """지표로부터 불량 유형별 발생 확률 (6-class softmax)을 계산합니다.
 
     명시적 생성 규칙
     ----------------
-    - Undercut  : 4.5*lateral + 2.0*(1-passivation) - 2.3
-    - Bowing    : 4.0*bowing_driver + 0.8*bias_norm - 2.5
-    - Etch Stop : 4.2*(0.52 - etch_rate_norm)
-    - Footing   : 4.0*footing_index - 2.1
-    - Normal    : 3.0 - 1.5 * max(결함 점수들)
+    - Undercut     : 4.5*lateral + 2.0*(1-passivation) - 2.3
+    - Bowing       : 4.0*bowing_driver + 0.8*bias_norm - 2.5
+    - Etch Stop    : 4.2*(0.52 - etch_rate_norm)
+    - Footing      : 4.0*footing_index - 2.1
+    - Punch-through: 5.0 * max(0, (etch_depth - target_depth)/target_depth) * anisotropy - 1.8
+    - Normal       : 3.0 - 1.5 * max(결함 점수들)
+
+    Punch-through 는 식각 깊이(etch_rate * etch_time)가 교육용 목표층 두께를 초과하고
+    방향성이 강할 때 발생 확률이 증가합니다. bias_power 가 높다고 해서 반드시 발생하지는 않습니다.
     """
     P = indicators["passivation_index"].to_numpy(dtype=float)
     A = indicators["anisotropy_index"].to_numpy(dtype=float)
@@ -307,16 +325,22 @@ def defect_probabilities(
 
     er_norm = np.clip((ER - 40.0) / 260.0, 0.0, 1.0)
 
+    # Punch-through: 과식각 경향 (목표층 두께 초과 + 방향성)
+    etch_depth = ER * ETCH_TIME_MIN
+    over_etch = np.maximum(0.0, (etch_depth - TARGET_DEPTH_NM) / TARGET_DEPTH_NM)
+    punch_driver = over_etch * A  # 방향성이 강할수록 관통이 명확해짐
+
     s_undercut = 4.5 * lateral_factor + 2.0 * (1.0 - P) - 2.3
     s_bowing = 4.0 * bowing_driver + 0.8 * bn - 2.5
     s_stop = 4.2 * (0.52 - er_norm)
     s_footing = 4.0 * F - 2.1
+    s_punch = 5.0 * punch_driver - 1.8
 
-    defect_stack = np.vstack([s_undercut, s_bowing, s_stop, s_footing])
+    defect_stack = np.vstack([s_undercut, s_bowing, s_stop, s_footing, s_punch])
     max_defect = np.max(defect_stack, axis=0)
     s_normal = np.clip(3.0 - 1.5 * max_defect, -3.0, 6.0)
 
-    scores = np.vstack([s_normal, s_undercut, s_bowing, s_stop, s_footing]).T  # (n, 5)
+    scores = np.vstack([s_normal, s_undercut, s_bowing, s_stop, s_footing, s_punch]).T  # (n, 6)
     scores = scores - scores.max(axis=1, keepdims=True)
     exp_s = np.exp(scores)
     probs = exp_s / exp_s.sum(axis=1, keepdims=True)
@@ -354,15 +378,19 @@ def compute_defect_severity(
     lateral = (1.0 - A) * (0.4 + 0.9 * tn)
     er_norm = np.clip((ER - 40.0) / 260.0, 0.0, 1.0)
 
+    # Punch-through 과식각 정도 (목표층 대비 초과 깊이)
+    over_etch = np.maximum(0.0, (ER * ETCH_TIME_MIN - TARGET_DEPTH_NM) / TARGET_DEPTH_NM)
+
     defect_prob_sum = 1.0 - probs[:, 0]
     severity = (
         100.0
         * (
             0.12
-            + 0.50 * defect_prob_sum
-            + 0.22 * lateral
-            + 0.18 * (1.0 - er_norm)
-            + 0.14 * F
+            + 0.45 * defect_prob_sum
+            + 0.20 * lateral
+            + 0.15 * (1.0 - er_norm)
+            + 0.12 * F
+            + 0.18 * over_etch  # Punch-through 위험 반영
             - 0.10 * P
         )
     )

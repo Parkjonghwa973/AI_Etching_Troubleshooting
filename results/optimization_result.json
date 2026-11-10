@@ -1,18 +1,18 @@
 {
-  "n_trials": 30,
+  "n_trials": 10,
   "n_splits": 3,
-  "baseline_cv_macro_f1": 0.3608,
-  "best_cv_macro_f1": 0.3778,
-  "improvement": 0.017,
+  "baseline_cv_macro_f1": 0.36862,
+  "best_cv_macro_f1": 0.37465,
+  "improvement": 0.00603,
   "improved": true,
   "best_params": {
-    "n_estimators": 900,
-    "max_depth": 5,
-    "learning_rate": 0.010742993978967722,
-    "subsample": 0.8280722775568021,
-    "colsample_bytree": 0.8909682102127632,
-    "min_child_weight": 9.238024098952845,
-    "reg_alpha": 0.19413953490868702,
-    "reg_lambda": 0.011201598790677093
+    "n_estimators": 100,
+    "max_depth": 11,
+    "learning_rate": 0.11069143219393454,
+    "subsample": 0.8645035840204937,
+    "colsample_bytree": 0.8627622080115674,
+    "min_child_weight": 1.8144911690749939,
+    "reg_alpha": 0.02715581955282941,
+    "reg_lambda": 0.022264204303769682
   }
 }

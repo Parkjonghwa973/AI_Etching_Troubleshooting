@@ -1,6 +1,7 @@
 defect_class,top_features,top1_feature,top1_mean_abs_shap
-Normal,"source_power_w, bias_power_w, pressure_mtorr",source_power_w,0.4133622933522561
-Undercut,"gas_chemistry, temperature_c, bias_power_w",gas_chemistry,0.5153343587671106
-Bowing,"bias_power_w, gas_chemistry, pressure_mtorr",bias_power_w,0.6450517877918859
-Etch Stop,"bias_power_w, temperature_c, gas_chemistry",bias_power_w,0.5173563033187502
-Footing,"bias_power_w, source_power_w, gas_chemistry",bias_power_w,0.3258740854849416
+Normal,"temperature_c, gas_chemistry, bias_power_w",temperature_c,0.3285634433057716
+Undercut,"gas_chemistry, temperature_c, bias_power_w",gas_chemistry,0.5431876032172878
+Bowing,"bias_power_w, pressure_mtorr, gas_chemistry",bias_power_w,0.3970404821499986
+Etch Stop,"bias_power_w, gas_chemistry, temperature_c",bias_power_w,0.47941475483124585
+Footing,"bias_power_w, source_power_w, pressure_mtorr",bias_power_w,0.3720610798331382
+Punch-through,"bias_power_w, pressure_mtorr, source_power_w",bias_power_w,0.757986633713791

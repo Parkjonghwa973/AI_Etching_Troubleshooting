@@ -1,5 +1,5 @@
 {
-  "runtime_sec": 745.5,
+  "runtime_sec": 211.2,
   "mode": "fast",
   "trials_per_model": 5,
   "n_splits": 3,
@@ -48,5 +48,5 @@
   },
   "python": "3.13.2",
   "platform": "Windows-11-10.0.26200-SP0",
-  "timestamp": "2026-10-31 18:02:01"
+  "timestamp": "2026-11-04 22:05:41"
 }

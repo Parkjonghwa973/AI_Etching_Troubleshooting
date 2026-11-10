@@ -87,7 +87,7 @@ PARAM_LABELS = {
     "temperature_c": "Temperature (°C)",
 }
 
-CLASS_COLORS = ["#2E86C1", "#E74C3C", "#8E44AD", "#E67E22", "#16A085"]
+CLASS_COLORS = ["#2E86C1", "#E74C3C", "#8E44AD", "#E67E22", "#16A085", "#D35400"]
 
 st.set_page_config(
     page_title="AI Etching Troubleshooting",
